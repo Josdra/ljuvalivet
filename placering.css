@@ -1,0 +1,36 @@
+.bild
+{
+width: 500px;
+padding: 30px;
+}
+
+
+.floating
+{
+float: right;
+}
+
+.parbild
+{
+width: 500px;
+padding: 30px;
+float: right;
+}
+
+.marcus {
+         width: 500px;
+         padding: 30px;
+         float:right;
+}
+
+.misha {
+        width: 500px;
+        padding: 10px;
+        float:left;
+}
+
+.benjamin {
+           width: 500px;
+           padding: 30px;
+           float: right;
+}

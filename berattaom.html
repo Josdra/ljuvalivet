@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berätta om sig själv</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="placering.css">
+</head>
+
+
+
+<body onload="buildmenu()">
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ljuva Livet</h1>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Sök...">
+                <button>Sök</button>
+            </div>
+        </div>
+
+
+        <ul id="menu"></ul>
+
+
+    </header>
+    <br>
+    <br>
+
+
+<div class="berattasidan">
+    <h1>Berätta om dig själv</h1>
+
+    <form action="" method="post">
+        <label for="firstname"> För & efternamn:</label>
+        <input name="firstname" id="firstname" type="text">
+        <br>
+        <br>
+        <label for="older"> Hur gammal är du?:</label>
+        <input name="older" id="older" type="text">
+        <br>
+        <br>
+        <label for="older"> Hur länge har du varit singel?:</label>
+        <input name="singel" id="singel" type="text">
+
+
+        <p>Kön:</p>
+        <input type="radio" name="kön" id="man" value="man">
+        <label for="meat">Man</label>
+        <br>
+        <input type="radio" name="kön" id="kvinna" value="kvinna">
+        <label for="fish">Kvinna</label>
+        <br>
+        <input type="radio" name="kön" id="annat" value="annat">
+        <label for="veg">Annat</label>
+        <br>
+        <p>Vardagssyssla:</p>
+        <input type="radio" name="vardagssyssla" id="jobba" value="jobba">
+        <label for="meat">Jobbar</label>
+        <br>
+        <input type="radio" name="vargadssyssla" id="pluggar" value="pluggar">
+        <label for="fish">Pluggar</label>
+        <br>
+        <input type="radio" name="vardagssyssla" id="jobbarpluggar" value="jobbarpluggar">
+        <label for="veg">Jobbar och pluggar</label>
+        <br>
+        <input type="radio" name="vardagssyssla" id="listaut" value="listaut">
+        <label for="veg">Försöker lista ut det</label>
+        <br>
+        <p>Är du introvert eller extrovert?:</p>
+        <input type="radio" name="ord" id="extro" value="extro">
+        <label for="meat">Extrovert</label>
+        <br>
+        <input type="radio" name="ord" id="intro" value="intro">
+        <label for="fish">Introvert</label>
+        <br>
+        <input type="radio" name="ord" id="båda" value="båda">
+        <label for="veg">Blandning av båda</label>
+        <br>
+        <br>
+        <p>Hemmakväll eller utekväll:</p>
+        <input type="radio" name="ord" id="ute" value="ute">
+        <label for="meat">Hemmakväll</label>
+        <br>
+        <input type="radio" name="ord" id="ute" value="ute">
+        <label for="fish">Utekväll</label>
+        <br>
+       
+       
+
+        <br>
+        <br>
+        <label for="info">Beskriv dig själv med tre ord:</label>
+        <br>
+        <textarea id="info" name="info" cols="80" rows="5"></textarea>
+        <br>
+        <br>
+        <label for="info">På fritiden gillar jag att.....</label>
+        <br>
+        <textarea id="info" name="info" cols="80" rows="5"></textarea>
+        <br>
+        <br>
+        <label for="info">Beskriv den optimala dejten</label>
+        <br>
+        <textarea id="info" name="info" cols="80" rows="5"></textarea>
+        <br>
+        <br>
+        <label for="info">Vad är din dagliga rutin?</label>
+        <br>
+        <textarea id="info" name="info" cols="80" rows="5"></textarea>
+        <br>
+        <br>
+        <label for="info">Vilka är dina hobbies/intressen?</label>
+        <br>
+        <textarea id="info" name="info" cols="80" rows="5"></textarea>
+        <br>
+        <br>
+        <label for="info">Vad är ditt mål på Ljuva livet?</label>
+        <br>
+        <textarea id="info" name="info" cols="80" rows="5"></textarea>
+        <br>
+        <br>
+        <label for="info">Annat du vill berätta om dig själv som vi missat</label>
+        <br>
+        <textarea id="info" name="info" cols="80" rows="5"></textarea>
+        <br>
+        <br>
+        <input type="button" value="Skicka in" class="skickainknapp">
+        <br>
+        <br>
+        <br>
+    </form>
+    </div>
+
+
+
+        <footer>
+    
+            <div class="footerrubrik">
+            <div class="footertext"> 
+                <h4>Våra tjänster</h4>
+                <p>Dejtingtips</p>
+                <p>Online-hjälp</p>
+                <p>Säkerhetstips</p>
+            </div>
+            <div class="footertext">
+                <h4>Om oss</h4>
+                <p>Om Ljuva livet</p>
+                <p>Vanliga frågor och svar</p>
+                <p>Jobba hos oss</p>
+            </div>
+             <div class="footertext">
+                <h4>Support</h4>
+                <p>Kontaktinfo</p>
+                <p>Kundtjänst</p>
+             </div>
+             <div class="footertext">
+                <h4>Vilkor</h4>
+                <p>Personuppgiftspolicy</p>
+                <p>Medlemsvilkor</p>
+                <p>Cookie policy</p>
+             </div>
+            </div>
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

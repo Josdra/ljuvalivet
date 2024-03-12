@@ -1,0 +1,406 @@
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:firebrick; 
+}
+
+.logo h1 {
+    margin: 0;
+    color: #fff;
+}
+
+.search input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #0056b3;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+h2 {
+    margin-left: 550px;
+}
+
+.mittentext {
+             margin-left: 350px;
+}
+
+
+.loggain {
+          margin-left: 650px;
+}
+
+.reg {
+      margin-left: 650px;
+}
+
+.medlemk {
+          margin-left: 665px;
+}
+
+
+.google {
+         margin-left: 680px;
+}
+
+.apple {
+        margin-left: 680px;
+}
+
+.glömtl {
+         margin-left: 680px;
+         color: firebrick;
+}
+
+.komihag {
+          margin-left: 690px;
+}
+
+.personup {
+           margin-left: 640px;
+}
+
+.medlemvilkor {
+               margin-left: 640px;
+}
+
+.emailruta {
+            margin-left: 660px;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 5px;
+}
+
+.lösenruta {
+            margin-left: 660px;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 5px;
+}
+
+.fornamnruta {
+              margin-left: 660px;
+              font-size: 15px;
+              border-radius: 5px;
+              padding: 5px;
+}
+
+
+.flirtruta {
+    background-color: #f1f1f1; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    padding: 5px; 
+    width: 500px; 
+    margin-left: 470px;
+}
+
+.flirtruta textarea {
+    width: 100%; 
+    height: 350px; 
+    resize: none; 
+    border: none; 
+    outline: none; 
+    font-size: 14px; 
+}
+
+.alderval {
+           margin-left: 660px;
+           width: 200px;
+}
+
+
+.knapp {
+              font-size: 13px;
+              padding: 8px 18px;
+
+}
+
+.medlemknapp {
+               font-size: 18px;
+               padding: 8px 18px;
+               color:#fff; 
+               background-color:firebrick;
+               margin-left: 650px; 
+}
+
+.skickainknapp {
+                font-size: 14px;
+                padding: 8px 18px;
+}
+
+
+.flirtknapp {
+         font-size: 14px;
+         padding: 8px 18px;
+}
+
+.flirtknapp:hover {
+               background-color: firebrick;
+}
+
+.skickatflirt {
+               font-size: 14px;
+               padding: 8px 18px;
+               margin-left: 685px;
+}
+
+.skickatflirt:hover {
+                     background-color: firebrick;
+}
+
+.inloggknapp {
+    font-size: 14px;
+    padding: 8px 18px;
+    color:#fff; 
+    background-color:firebrick;
+    margin-left: 700px; 
+}
+
+.manknapp {
+           margin-left: 500px;
+           padding: 8px 22px;
+           font-size: 14px;
+}
+
+.kvinnaknapp {
+    margin-left: 500px;
+    padding: 8px 18px;
+    font-size: 14px;
+}
+
+.mankvin input[type="radio"] {
+    display: none; 
+}
+
+.mankvin label {
+    display: inline-block;
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-left:5px;
+}
+
+.mankvin input[type="radio"]:checked + label {
+    background-color:firebrick; 
+}
+
+.mankvin input[type="radio"]:checked + label:active {
+    background-color:firebrick; 
+}
+
+.mankvin {
+          margin-left: 685px;
+}
+
+
+
+.ben {
+    height: 340px;
+    width: 240px;
+}
+
+.erik {
+       height: 340px;
+       width: 240px;
+
+}
+
+.lina {
+    height: 340px;
+    width: 240px;
+}
+
+.elin {
+     height: 340px;
+     width: 240px;
+}
+
+.peter {
+    height: 340px;
+    width: 240px;
+}
+
+.filippa {
+    height: 340px;
+    width: 240px;
+}
+
+.olivia {
+    height: 340px;
+    width: 240px;
+}
+
+.oscar {
+    height: 340px;
+    width: 240px;
+}
+
+.ann {
+    height: 340px;
+    width: 240px;
+}
+
+.linus {
+    height: 340px;
+    width: 240px;
+}
+
+.nara {
+    height: 340px;
+    width: 240px;
+}
+
+.jonathan {
+    height: 340px;
+    width: 240px;
+}
+
+
+
+.berattasidan {
+               width: 50vw;
+               margin:auto;
+               border:#000 solid 2px;
+               padding: 20px
+}
+
+
+
+
+
+
+
+.matchningar {
+              margin-left: 600px;
+}
+
+.flirtrubrik {
+              margin-left: 600px;
+}
+
+
+
+
+
+
+footer {
+    background-color:firebrick; 
+    padding: 20px 0;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div{
+           color: white;           
+}
+
+
+
+#menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li{
+ margin-right: 21px;
+}
+
+#menu li a {
+         text-decoration: none;
+         color:#555;
+         padding: 10px 50px;
+         border-radius: 5px;
+         background-color:gainsboro; 
+         height: 35px;
+}
+
+
+#menu li a:hover{
+              background-color:#ccc
+}
+
+
+
+
+.supporth {
+           text-align:left
+}
+
+
+
+
+.footerrubrik{
+              display: flex;
+              
+}
+
+.footertext {
+    padding-right: 150px;
+    width: 250px;
+}
+
+h4 {
+    margin: 0;
+    text-wrap:nowrap; 
+}
+
+.footerrubrik p {
+                 width: 200px;
+}

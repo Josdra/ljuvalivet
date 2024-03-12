@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regristrera</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="placering.css">
+</head>
+<body onload="buildmenu()">
+
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ljuva Livet</h1>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Sök...">
+                <button>Sök</button>
+            </div>
+        </div>
+       <ul id="menu"></ul>
+
+    
+       <h3 class="reg">Starta din kärleksresa</h3>
+       <p class="medlemk">Bli medlem utan kostnad</p>
+       <p class="google">Fortsätt med Google</p>
+       <p class="apple">Fortsätt med Apple</p>
+
+      <div class="mankvin">
+        <input type="radio" id="man" name="gender" value="man">
+        <label for="man">Man</label>
+        
+        <input type="radio" id="kvinna" name="gender" value="kvinna">
+        <label for="kvinna">Kvinna</label>
+        <br>
+    </div>
+      <br>
+      <select class="alderval" id="age" name="age">
+          <option value="">Ange din ålder</option>
+      </select>
+      <script>
+        var select = document.getElementById("age");
+
+        for (var i = 18; i <= 99; i++) {
+          var option = document.createElement("option");
+          option.value = i;
+          option.text = i;
+          select.appendChild(option);
+        }
+      </script>
+
+      <br>
+      <br>
+      <input class="fornamnruta" type="Fornamn" id="fornamn" name="fornamn" placeholder="För och efternamn...">
+      <br>
+      <br>
+      <input class="emailruta" type="email" id="email" name="email" placeholder="E-post...">
+      <br>
+      <br>
+      <input class="lösenruta" type="lösenord" id="lösenord" name="lösenord" placeholder="Lösenord...">
+      <br>
+      <br>
+      <input class="medlemvilkor" type="checkbox" id="medlemvilkor">
+      <label for="medlemsvilkor">Jag accepterar medlemsvilkoren</label>
+      <br>
+      <br>
+      <input class="personup" type="checkbox" id="personup">
+      <label for="personuppgift">Jag accepterar personuppgiftpolicyn</label>
+      <br>
+      <br>
+       <input type="button" value="Bli medlem" class="inloggknapp">
+      <br>
+      <br>
+      
+  
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <footer>
+    
+            <div class="footerrubrik">
+            <div class="footertext"> 
+                <h4>Våra tjänster</h4>
+                <p>Dejtingtips</p>
+                <p>Online-hjälp</p>
+                <p>Säkerhetstips</p>
+            </div>
+            <div class="footertext">
+                <h4>Om oss</h4>
+                <p>Om Ljuva livet</p>
+                <p>Vanliga frågor och svar</p>
+                <p>Jobba hos oss</p>
+            </div>
+             <div class="footertext">
+                <h4>Support</h4>
+                <p>Kontaktinfo</p>
+                <p>Kundtjänst</p>
+             </div>
+             <div class="footertext">
+                <h4>Vilkor</h4>
+                <p>Personuppgiftspolicy</p>
+                <p>Medlemsvilkor</p>
+                <p>Cookie policy</p>
+             </div>
+            </div>
+        </footer>
+
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferenser</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="placering.css">
+</head>
+
+
+<body onload="buildmenu()"></body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>Ljuva Livet</h1>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Sök...">
+            <button>Sök</button>
+        </div>
+    </div>
+
+
+    <ul id="menu"></ul>
+
+
+</header>
+<br>
+<br>
+
+<h1>Preferensanalys</h1>
+
+
+    <p>Jag attraheras av:</p>
+        <input type="radio" name="attract" id="mane" value="mane">
+        <label for="meat">Män</label>
+        <br>
+        <input type="radio" name="attract" id="kvinnor" value="kvinnor">
+        <label for="meat">Kvinnor</label>
+        <br>
+        <input type="radio" name="attract" id="bada" value="bada">
+        <label for="meat">Både män och kvinnor</label>
+        <br>
+
+    <p>Vilken åldersgrupp föredrar du hos en partner?</p>
+        <input type="radio" name="aldersgrupp" id="ung" value="ung">
+        <label for="meat">18-25 år</label>
+        <br>
+        <input type="radio" name="aldersgrupp" id="medel" value="medel">
+        <label for="meat">26-35 år</label>
+        <br>
+        <input type="radio" name="aldersgrupp" id="medelmedel" value="medelmedel">
+        <label for="meat">36-45 år</label>
+         <br>
+        <input type="radio" name="aldersgrupp" id="aldre" value="aldre">
+        <label for="meat">46-55 år</label>
+        <br>
+        <input type="radio" name="aldersgrupp" id="alst" value="alst">
+        <label for="meat">55+ år</label>
+        <br>
+
+    <p>Hur viktigt är det för dig att den du träffar vill ha barn?</p>
+        <input type="radio" name="barn" id="mviktigt" value="mviktigt">
+        <label for="meat">Mycket viktigt</label>
+        <br>
+        <input type="radio" name="barn" id="viktigt" value="viktigt">
+        <label for="meat">Viktigt</label>
+        <br>
+        <input type="radio" name="barn" id="ingenroll" value="ingenroll">
+        <label for="meat">Spelar ingen roll</label>
+         <br>
+        <input type="radio" name="barn" id="inteviktigt" value="inteviktigt">
+        <label for="meat">Inte viktigt alls</label>
+        <br>
+        <br>
+        
+    <p>Vilken personlighetstyp föredrar du hos en partner?</p>
+        <input type="radio" name="person" id="utextro" value="utextro">
+        <label for="meat">En utåtriktad extrovert</label>
+        <br>
+        <input type="radio" name="person" id="hemma" value="hemma">
+        <label for="meat">En hemmakär introvert</label>
+        <br>
+        <input type="radio" name="person" id="spontan" value="spontan">
+        <label for="meat">En spontan äventyrare</label>
+         <br>
+        <input type="radio" name="person" id="plan" value="plan">
+        <label for="meat">En planerare och analytiker</label>
+        <br>
+        
+    <p>Vilken typ av kompatibilitet är viktigast för dig när du letar efter en partner?</p>
+        <input type="radio" name="komp" id="personlighet" value="personlighet">
+        <label for="meat">Personlighet</label>
+        <br>
+        <input type="radio" name="komp" id="intresse" value="intresse">
+        <label for="meat">Intressen</label>
+        <br>
+        <input type="radio" name="komp" id="vardering" value="vardering">
+        <label for="meat">Värdering</label>
+         <br>
+        <input type="radio" name="komp" id="livstil" value="livstil">
+        <label for="meat">Livstil</label>
+        <br>
+        <br>
+        <input type="button" value="Skicka in" class="skickainknapp">
+        <br>
+        <br>
+        <br>
+
+
+
+        
+        <footer>
+            <div class="footerrubrik">
+            <div class="footertext"> 
+                <h4>Våra tjänster</h4>
+                <p>Dejtingtips</p>
+                <p>Online-hjälp</p>
+                <p>Säkerhetstips</p>
+            </div>
+            <div class="footertext">
+                <h4>Om oss</h4>
+                <p>Om Ljuva livet</p>
+                <p>Vanliga frågor och svar</p>
+                <p>Jobba hos oss</p>
+            </div>
+             <div class="footertext">
+                <h4>Support</h4>
+                <p>Kontaktinfo</p>
+                <p>Kundtjänst</p>
+             </div>
+             <div class="footertext">
+                <h4>Vilkor</h4>
+                <p>Personuppgiftspolicy</p>
+                <p>Medlemsvilkor</p>
+                <p>Cookie policy</p>
+             </div>
+            </div>
+        </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
