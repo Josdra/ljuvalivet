@@ -188,7 +188,7 @@ h2 {
 .skickainknapp {
                 font-size: 14px;
                 padding: 8px 18px;
-                margin-left: 300px;
+                margin-left: 300px;               
 }
 
 .skickaknapp {
@@ -197,14 +197,15 @@ h2 {
     margin-left: 300px;
 }
 
+.skickainknapp:hover {
+                      background-color: firebrick;
+}
+
 .flirtknapp {
          font-size: 14px;
          padding: 8px 18px;
 }
 
-.flirtknapp:hover {
-               background-color: firebrick;
-}
 
 .skickatflirt {
                font-size: 14px;
