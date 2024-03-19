@@ -177,6 +177,10 @@ h2 {
 
 }
 
+.knapp:hover {
+               background-color: firebrick;
+}
+
 .medlemknapp {
                font-size: 18px;
                padding: 8px 18px;
