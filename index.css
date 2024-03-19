@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 30px;
     background-color:firebrick; 
 }
 
@@ -384,7 +384,9 @@ h2 {
 }
 
 
-
+.leftmargin {
+             padding-left: 10px;
+}
 
 
 
