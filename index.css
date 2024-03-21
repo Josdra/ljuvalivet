@@ -8,7 +8,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color:firebrick; 
+    background-color:#000; 
 }
 
 .logo h1 {
@@ -48,7 +48,7 @@ ul {
 li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 4px 8px;
     text-decoration: none;
 }
 
@@ -184,9 +184,11 @@ h2 {
 .medlemknapp {
                font-size: 18px;
                padding: 8px 18px;
-               color:#fff; 
-               background-color:firebrick;
                margin-left: 650px; 
+}
+
+.medlemknapp:hover {
+                    background-color: firebrick;
 }
 
 .skickainknapp {
@@ -421,7 +423,7 @@ h2 {
 
 
 footer {
-    background-color:firebrick; 
+    background-color:#000; 
     padding: 20px 0;
     position:static;
     bottom: 0;

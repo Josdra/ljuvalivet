@@ -8,7 +8,7 @@ function buildmenu() {
       ["Dina matchningar", "preferenslista"],
       ["Skicka flirt", "skickaflirt.html"],
       ["Chatten", "chat.html"],
-      ["Kampanj", "https://wordpress.com/page/josdra.wordpress.com/26"],
+      ["Kampanj", "https://josdra.wordpress.com/paskagg-av-karlek/"],
   ];
 
   var content = "";
